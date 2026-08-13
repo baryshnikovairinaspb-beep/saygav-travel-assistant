@@ -1,4 +1,8 @@
 const themeLink = document.createElement('link');
+const journeyOsScript = document.createElement('script');
+journeyOsScript.src = 'journey-os.js';
+journeyOsScript.defer = true;
+document.head.appendChild(journeyOsScript);
 themeLink.rel = 'stylesheet';
 themeLink.href = 'theme.css';
 document.head.appendChild(themeLink);
