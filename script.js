@@ -5,6 +5,7 @@ journeyOsScript.defer = true;
 document.head.appendChild(journeyOsScript);
 const experienceCss=document.createElement('link');experienceCss.rel='stylesheet';experienceCss.href='experience.css?v=2';document.head.appendChild(experienceCss);
 const playfulCss=document.createElement('link');playfulCss.rel='stylesheet';playfulCss.href='playful.css?v=1';document.head.appendChild(playfulCss);
+const planeFix=document.createElement('link');planeFix.rel='stylesheet';planeFix.href='plane-fix.css?v=1';document.head.appendChild(planeFix);
 journeyOsScript.addEventListener('load',()=>{const s=document.createElement('script');s.src='experience.js?v=2';document.body.appendChild(s)});
 themeLink.rel = 'stylesheet';
 themeLink.href = 'theme.css';

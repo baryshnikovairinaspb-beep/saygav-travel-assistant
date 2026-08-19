@@ -1,0 +1,6 @@
+/* Passenger-aircraft silhouette: tapered nose and visible cockpit */
+.plane-body{width:270px;height:58px;border-radius:48% 18% 22% 44%;background:linear-gradient(180deg,#fffdf8 0 63%,#e4d0b5 64% 78%,#285779 79% 86%,#c7a982 87%);box-shadow:inset 0 5px 0 #ffffffaa}
+.plane-body .nose{right:-48px;width:76px;height:58px;border:0;border-right:2px solid #35281f;border-radius:0 75% 48% 0;background:linear-gradient(155deg,#fffdf8 0 58%,#e4d0b5 59%);clip-path:polygon(0 0,55% 8%,82% 25%,100% 45%,100% 58%,78% 76%,48% 91%,0 100%)}
+.plane-body .nose:after{content:'';position:absolute;right:18px;top:13px;width:22px;height:11px;border-radius:70% 90% 30% 45%;background:linear-gradient(135deg,#8fc1dc,#285779);border:2px solid #23445c;transform:skewX(18deg)}
+.plane-body .nose:before{content:'';position:absolute;right:4px;top:27px;width:7px;height:3px;border-radius:50%;background:#35281f}
+.plane-body .wing{left:100px;width:125px}.plane-body .tail{left:-33px;top:-34px;width:66px;height:43px}.plane-body>span{left:84px}.dog-window{width:30px;height:30px;font-size:21px}
