@@ -3,6 +3,8 @@ const journeyOsScript = document.createElement('script');
 journeyOsScript.src = 'journey-os.js?v=2';
 journeyOsScript.defer = true;
 document.head.appendChild(journeyOsScript);
+const experienceCss=document.createElement('link');experienceCss.rel='stylesheet';experienceCss.href='experience.css?v=1';document.head.appendChild(experienceCss);
+journeyOsScript.addEventListener('load',()=>{const s=document.createElement('script');s.src='experience.js?v=1';document.body.appendChild(s)});
 themeLink.rel = 'stylesheet';
 themeLink.href = 'theme.css';
 document.head.appendChild(themeLink);
