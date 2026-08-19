@@ -4,3 +4,4 @@
 .plane-body .nose:after{content:'';position:absolute;right:18px;top:13px;width:22px;height:11px;border-radius:70% 90% 30% 45%;background:linear-gradient(135deg,#8fc1dc,#285779);border:2px solid #23445c;transform:skewX(18deg)}
 .plane-body .nose:before{content:'';position:absolute;right:4px;top:27px;width:7px;height:3px;border-radius:50%;background:#35281f}
 .plane-body .wing{left:100px;width:125px}.plane-body .tail{left:-33px;top:-34px;width:66px;height:43px}.plane-body>span{left:84px}.dog-window{width:30px;height:30px;font-size:21px}
+.flying-plane.real-plane{width:560px;height:auto;filter:drop-shadow(0 22px 18px #17384f40)}.real-plane>img{display:block;width:100%;height:auto}.real-plane .contrail{right:500px;top:52%;width:240px}.real-plane .plane-body{display:none}@media(max-width:700px){.flying-plane.real-plane{width:430px}.real-plane>img{transform:scale(.78);transform-origin:left center}}
